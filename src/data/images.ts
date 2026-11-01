@@ -1,0 +1,31 @@
+const u = (id: string, w = 1400) =>
+  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`
+
+export const images = {
+  hero: u('photo-1555939594-58d7cb561ad1', 1920),
+  plate: u('photo-1544025162-d76694265947'),
+  feast: u('photo-1504674900247-0877df9cc836'),
+  chef: u('photo-1556910103-1c02745aae4d'),
+  table: u('photo-1414235077428-338989a2e8c0'),
+  veg: u('photo-1512621776951-a57141f2eefd'),
+  dessert: u('photo-1488477182946-bb2d2dd0cdf9'),
+  tart: u('photo-1551024506-0bccd828d307'),
+  breakfast: u('photo-1525351484163-7529414344d8'),
+  magwinya: u('photo-1509440159596-0249088772ff'),
+  stew: u('photo-1604908176997-125f25cc6f3d'),
+  chicken: u('photo-1598103442097-8b74394b95c6'),
+  braai: u('photo-1529193591184-b1d58069ecdd'),
+  rice: u('photo-1516684738272-f1dc73d82b3b'),
+  salad: u('photo-1540420773420-3366772f4999'),
+  drink: u('photo-1497534446932-c925b458314e'),
+  beer: u('photo-1535958636474-b021ee887b13'),
+  canal: u('photo-1580060839134-75a5edca2e99'),
+  hands: u('photo-1556911220-e15b29be1c10'),
+  spices: u('photo-1596040033229-a9821ebd058d'),
+  pudding: u('photo-1563805042-7684c019e1cb'),
+  pancakes: u('photo-1567620905732-2d1ec7ab7445'),
+  greens: u('photo-1540189549336-e6e99c3679fe'),
+  bread: u('photo-1509440159596-0249088772ff'),
+  coffee: u('photo-1495474472287-4d71bcdd2085'),
+  juice: u('photo-1623065427902-21dd6c36bd37'),
+}
